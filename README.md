@@ -8,6 +8,6 @@ string de código de barras com checksum
 chamar a função Cb128(string ou varável)
 # Uso básico em Excel
 //seta a fonte Code 128 no range de células <br>
-    chWorkSheet:Range("K1:K18"):FONT:NAME = "Code 128".
-//chama a função que fará a conversão da string
-    chWorksheet:range("K1:K18"):VALUE = Cb128(c-string).
+    chWorkSheet:Range("K1:K18"):FONT:NAME = "Code 128". <br>
+//chama a função que fará a conversão da string <br>
+    chWorksheet:range("K1:K18"):VALUE = Cb128(c-string). 
